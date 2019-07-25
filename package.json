@@ -10,7 +10,7 @@
     "moment": "2.24.0",
     "react": "16.8.3",
     "react-native": "0.59.9",
-    "react-native-chart-kit": "^3.1.0",
+    "react-native-chart-kit": "file:./custom_modules/react-native-chart-kit",
     "react-native-svg": "^9.5.3"
   },
   "devDependencies": {

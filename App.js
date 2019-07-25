@@ -15,7 +15,7 @@ import {
   ProgressChart,
   ContributionGraph,
   StackedBarChart
-} from 'react-native-chart-kit'
+} from './custom_modules/react-native-chart-kit'
 //import moment  from 'moment'
  
 
