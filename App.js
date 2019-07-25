@@ -36,7 +36,7 @@ export default class App extends Component<Props> {
       </Text>
       <BarChart
         data={{
-          labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+          labels: ['0','', '', '', '', '5', '', '','','','','10', '', '','','','','15', '', '','','','','20', '', '','','','','25', '', '','','','','30',''],
           datasets: [{
             data: [
               Math.random() * 100,
@@ -71,36 +71,30 @@ export default class App extends Component<Props> {
               Math.random() * 100,
               Math.random() * 100,
               Math.random() * 100,
-              Math.random() * 100,
-              Math.random() * 100,
-              Math.random() * 100,
-              Math.random() * 100,
-              Math.random() * 100,
-              Math.random() * 100,
-              Math.random() * 100,
+          
             ]
           }]
         }}
         width={Dimensions.get('window').width} // from react-native
         height={220}
         yAxisLabel={'$'}
-        barColor = {'green'}
+        barColor = {'#F19949'}
         noOfDays = {31}
         chartConfig={{
-          backgroundColor: '#e26a00',
-          backgroundGradientFrom: '#fb8c00',
-          backgroundGradientTo: '#ffa726',
-          decimalPlaces: 2, // optional, defaults to 2dp
+          //backgroundColor: 'white',
+          backgroundGradientFrom: 'white',
+          backgroundGradientTo: 'white',
+          decimalPlaces: 0, // optional, defaults to 2dp
           //color: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
-          color: () => '#9A9A9A',
+          color: () => '#D3D3D3',
           style: {
-            borderRadius: 16
+         
           }
         }}
         bezier
         style={{
           marginVertical: 8,
-          borderRadius: 16
+      
         }}
       />
     </View>
